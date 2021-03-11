@@ -13,3 +13,11 @@ public class Main {
         } else {
             bonus = 0;
         }
+
+        /*System.out.printf("%.0f", bonus);*/
+
+        double newBalance = currentBalance + payment + bonus;
+        System.out.printf("%.2f",newBalance);
+        System.out.println(bonus);
+    }
+}
